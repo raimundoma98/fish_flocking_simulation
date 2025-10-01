@@ -37,5 +37,14 @@
 *.out
 *.app
 
+# But NOT those under tools/
+!tools/**/*.exe
+!tools/**/*.out
+!tools/**/*.app
+
 # debug information files
 *.dwo
+
+# temporary folders
+/bin
+/build
